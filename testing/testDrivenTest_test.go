@@ -9,7 +9,6 @@ func TestAddNumber(t *testing.T) {
 		"test case 01": {1, 1, 2},
 		"test case 02": {1, -1, 0},
 		"test case 03": {1, 0, 1},
-		"test case 04": {0, 0, 0},
 	}
 
 	for k, tc := range cases {
